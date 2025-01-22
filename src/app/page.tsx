@@ -15,13 +15,12 @@ export default function Home() {
         <MoveUpRightIcon className="w-4 h-4 font-extrabold" />
       </Link>
       <h1 className="text-3xl font-bold mb-4 sm:text-6xl">
-        Effortlessly build stunning documentation sites with Next.js and server
-        components.
+        An Updated Documentation Template for Next.js Using MDX and Tailwind CSS
       </h1>
       <p className="mb-8 sm:text-lg max-w-[800px] text-muted-foreground">
-        This feature-packed documentation template, built with Next.js, offers a
-        sleek and responsive design, perfect for all your project documentation
-        needs.
+        Aria is a documentation template for Next.js that uses MDX and Tailwind
+        CSS. It&apos;s designed to be a starting point for your documentation
+        projects, with a focus on performance and flexibility.
       </p>
       <div className="flex flex-row items-center gap-5">
         <Link
@@ -31,7 +30,7 @@ export default function Home() {
           Get Stared
         </Link>
         <Link
-          href="/blog"
+          href="/docs"
           className={buttonVariants({
             variant: "secondary",
             className: "px-6",
@@ -43,7 +42,7 @@ export default function Home() {
       </div>
       <span className="flex flex-row items-start sm:gap-2 gap-0.5 text-muted-foreground text-md mt-7 -mb-12 max-[800px]:mb-12 font-code sm:text-base text-sm font-medium">
         <TerminalSquareIcon className="w-5 h-5 sm:mr-1 mt-0.5" />
-        {"npx create-aria-doc <project-directory>"}
+        {"npx install <package-name>"}
       </span>
     </div>
   );
